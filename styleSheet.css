@@ -1,0 +1,133 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+    text-decoration: none;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+.div-cabecalho
+{
+    background-color: powderblue;
+    width:100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.wrapper
+{
+    /*background-color: aqua;*/
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 20
+}
+
+header
+{
+    /*background-color: aqua;*/
+    padding: 40px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.logo img
+{
+    float: left;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+}
+
+header h1
+{
+    margin-top: 30%;
+    float: right;
+}
+
+.citacao
+{
+    /*background-color: blueviolet;*/
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: black;
+    border-style: inset;
+    border-right: 1px;
+    border-left: 1px;
+}
+
+.citacao h4
+{
+    display: inline-flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding-right: 5%;
+}
+
+.container
+{
+    /*background-color: brown;*/
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.card
+{
+    border-style: inset;
+    border-color: #333;
+    align-items: center;
+}
+
+.card img
+{
+    height: 300px;
+    width: 300px;
+}
+
+.card h5
+{
+    /*background-color: blue;*/
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.card p
+{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+nav .navegacao
+{
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+nav .navegacao li
+{
+    display: list-item;
+}
+
+

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <style>
+        img.one
+        {
+            height: 50%;
+            width: 50%;
+            right: 10;
+        }
+            
+                #planoDeFundo
+        {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }    
+        
+        </style>
+
+<title> </title>
+    </head>
+
+    <body style="background-color:grey;">
+        
+        <img class="one" src="images/PrimeiraSalaTutorial.png">
+        <hr>
+        <img class="one" src="images/SegundaSalaTutorial.png">
+        <hr>
+        
+        <video autoplay muted loop id="planoDeFundo">
+        <source src="./images/planoDeFundo.mp4" type="video/mp4">
+        </video>    
+        
+        <div class="content">
+        <h1>Heading</h1>
+        <p>Lorem ipsum...</p>
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+        </div>
+        
+
+        <script>
+            document.write('<a href="' + document.referrer + '">Go Back</a>');
+        </script>
+       
+    </body>
+    
+</html>
